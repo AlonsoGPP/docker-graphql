@@ -28,7 +28,7 @@ jobs:
         docker build -t alonsogpp/docker-graphql:0.0.2 .
     - name: Push Docker image
       run: |
-        docker push alonsogpp/docker-graphql:0.0.2 .
+        docker push alonsogpp/docker-graphql:0.0.2
         
       
     
